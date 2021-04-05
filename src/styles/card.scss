@@ -4,24 +4,14 @@
   width: 200px;
   font-size: 11px;
   font-weight: 400;
-  padding: 14px;
+  padding: 29px 14px 14px;
   border-radius: 5px;
   border: 1px solid #f3f3f3;
 
   &__image {
     width: 160px;
     height: 134px;
-    align-self: center;
-    margin: 15px 5px 45px;
-    transition: transform 500ms;
-
-    &:hover {
-      transform: scale(1.2);
-      border: 3px solid #f3f3f3;
-      box-sizing: initial;
-      margin: 0 5px 30px;
-      padding: 12px 0;
-    }
+    margin: 0 auto 45px;
   }
 
   &__title {
@@ -66,13 +56,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    transition: transform 500ms;
 
     &:hover {
       background-color: white;
       color: $main__color;
       border: 1px solid $main__color;
-      transform: scale(1.1);
     }
   }
 }
