@@ -66,13 +66,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    transition: transform 500ms;
+    transition: transform 400ms;
 
     &:hover {
       background-color: white;
       color: $main__color;
       border: 1px solid $main__color;
-      transform: scale(1.1);
+      transform: scale(1.2);
     }
   }
 }
